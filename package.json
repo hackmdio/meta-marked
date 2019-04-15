@@ -1,6 +1,6 @@
 {
   "name": "meta-marked",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "The 'marked' markdown processor with a simple metadata system.",
   "main": "./lib/meta-marked.js",
   "keywords": [
@@ -15,11 +15,11 @@
     "url": "git+https://github.com/hackmdio/meta-marked"
   },
   "dependencies": {
-    "marked": "~0.3.12",
-    "js-yaml": "~3.10.0"
+    "marked": "~0.6.2",
+    "js-yaml": "~3.13.1"
   },
   "devDependencies": {
-    "tape": "~4.8.0"
+    "tape": "~4.10.1"
   },
   "scripts": {
     "test": "node ./test/test"
